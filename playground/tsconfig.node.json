@@ -1,0 +1,13 @@
+{
+  "extends": "@xiaohe01/tsconfig/basic",
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ESNext"],
+    "types": [
+      "vite/client"
+    ]
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}

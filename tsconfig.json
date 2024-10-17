@@ -1,0 +1,7 @@
+{
+  "extends": "@xiaohe01/tsconfig/lib-dom",
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**"
+  ]
+}
