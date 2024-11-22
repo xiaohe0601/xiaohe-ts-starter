@@ -12,10 +12,10 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-Xiaohe / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
+xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
 
 > [!NOTE]
-> Replace `package-placeholder`, `__description__` and `Xiaohe` / `xiaohe0601` globally to use this template.
+> Replace `package-placeholder`, `__description__` and `xiaohe0601` globally to use this template.
 
 ### 🐶 Discussion & Communication
 
