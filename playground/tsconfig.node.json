@@ -1,8 +1,10 @@
 {
-  "extends": "@xiaohe01/tsconfig/basic",
+  "extends": "@xiaohe01/tsconfig/tsconfig.basic.json",
   "compilerOptions": {
     "composite": true,
-    "lib": ["ESNext"],
+    "lib": [
+      "ES2020"
+    ],
     "types": [
       "vite/client"
     ]
