@@ -32,6 +32,12 @@
     "vite": "^6.2.0",
     "vitest": "^3.0.7"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "simple-git-hooks"
+    ]
+  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
