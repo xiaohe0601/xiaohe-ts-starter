@@ -1,18 +1,7 @@
 {
-  "extends": "@xiaohe01/tsconfig/tsconfig.app-vue.json",
-  "compilerOptions": {
-    "types": [
-      "vite/client"
-    ]
-  },
   "references": [
+    { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "types/**/*.d.ts"
-  ]
+  "files": []
 }
