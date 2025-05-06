@@ -33,6 +33,9 @@ catalogs:
     lint-staged:
       specifier: ^15.5.1
       version: 15.5.1
+    ress:
+      specifier: ^5.0.2
+      version: 5.0.2
     simple-git-hooks:
       specifier: ^2.13.0
       version: 2.13.0
@@ -103,6 +106,9 @@ importers:
 
   playground:
     dependencies:
+      ress:
+        specifier: 'catalog:'
+        version: 5.0.2
       vue:
         specifier: 'catalog:'
         version: 3.5.13(typescript@5.7.3)
@@ -2584,6 +2590,9 @@ packages:
     resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
     engines: {node: '>= 0.4'}
     hasBin: true
+
+  ress@5.0.2:
+    resolution: {integrity: sha512-oHBtOWo/Uc8SzQMbQNIKTcgi8wKmAs7IlNlRywmXudbOtF+c27FlOIq7tnwLDVcTywe6JXYo1pDXHO6kABwNYA==}
 
   restore-cursor@5.1.0:
     resolution: {integrity: sha512-oMA2dcrw6u0YfxJQXm342bFKX/E4sG9rbTzO9ptUcR/e8A33cHuvStiYOwH7fszkZlZ1z/ta9AAoPk2F4qIOHA==}
@@ -5686,6 +5695,8 @@ snapshots:
       is-core-module: 2.16.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+
+  ress@5.0.2: {}
 
   restore-cursor@5.1.0:
     dependencies:
