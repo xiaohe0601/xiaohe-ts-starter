@@ -34,4 +34,3 @@ onlyBuiltDependencies:
   - esbuild
   - pncat
   - simple-git-hooks
-  - unrs-resolver
