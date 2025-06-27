@@ -36,6 +36,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild"
+    "dev": "tsdown --watch",
+    "build": "tsdown"
   }
 }

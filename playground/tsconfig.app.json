@@ -1,6 +1,10 @@
 {
-  "extends": "@xiaohe01/tsconfig/tsconfig.app-vue.json",
+  "extends": [
+    "@xiaohe01/tsconfig/tsconfig.basic.json",
+    "@xiaohe01/tsconfig/tsconfig.vue.json"
+  ],
   "compilerOptions": {
+    "composite": true,
     "types": [
       "vite/client"
     ]
