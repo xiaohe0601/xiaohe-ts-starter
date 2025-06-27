@@ -4,7 +4,6 @@
     "@xiaohe01/tsconfig/tsconfig.lib.json"
   ],
   "compilerOptions": {
-    "composite": true,
     "lib": [
       "ES2020"
     ],
@@ -12,6 +11,6 @@
     "isolatedDeclarations": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*"
   ]
 }
