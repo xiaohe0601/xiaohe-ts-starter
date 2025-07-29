@@ -17,14 +17,14 @@ xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0
 > [!NOTE]
 > Replace `package-placeholder`, `__description__` and `xiaohe0601` globally to use this template.
 
-### 🐶 Discussion & Communication
+## 🐶 Discussion & Communication
 
 - ❓：For questions or bug feedback, you can submit an [issues](https://github.com/xiaohe0601/package-placeholder/issues)
   and PR are welcome
 - 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
 - 🐧：Not yet available
 
-### 🏆 License
+## 🏆 License
 
 - MIT [LICENSE](./LICENSE)
 

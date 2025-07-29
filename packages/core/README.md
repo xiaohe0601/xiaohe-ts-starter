@@ -14,14 +14,14 @@
 
 xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
 
-### 🐶 Discussion & Communication
+## 🐶 Discussion & Communication
 
 - ❓：For questions or bug feedback, you can submit an [issues](https://github.com/xiaohe0601/package-placeholder/issues)
   and PR are welcome
 - 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
 - 🐧：Not yet available
 
-### 🏆 License
+## 🏆 License
 
 - MIT [LICENSE](./LICENSE)
 
