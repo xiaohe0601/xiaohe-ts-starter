@@ -23,7 +23,7 @@ xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0
 
 ## 🏆 License
 
-- MIT [LICENSE](./LICENSE)
+MIT [LICENSE](./LICENSE)
 
 [github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/package-placeholder?style=flat&colorA=080f12&colorB=1fa669&logo=GitHub
 [github-stars-href]: https://github.com/xiaohe0601/package-placeholder
