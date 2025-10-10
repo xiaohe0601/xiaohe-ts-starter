@@ -6,23 +6,23 @@ packages:
 catalogs:
   build:
     '@vitejs/plugin-vue': ^6.0.1
-    tsdown: ^0.15.4
-    vite: ^7.1.7
+    tsdown: ^0.15.6
+    vite: ^7.1.9
   cli:
-    bumpp: ^10.2.3
-    pncat: ^0.5.4
+    bumpp: ^10.3.1
+    pncat: ^0.6.1
   dev:
-    '@antfu/ni': ^26.0.1
-    '@antfu/utils': ^9.2.1
+    '@antfu/ni': ^26.1.0
+    '@antfu/utils': ^9.3.0
     '@xiaohe01/tsconfig': ^2.0.0
     typescript: ~5.8.3
-    vue-tsc: ^3.0.8
+    vue-tsc: ^3.1.1
   frontend:
-    vue: ^3.5.21
+    vue: ^3.5.22
   lint:
     '@xiaohe01/eslint-config': ^2.4.0
-    eslint: ^9.36.0
-    lint-staged: ^16.2.0
+    eslint: ^9.37.0
+    lint-staged: ^16.2.3
     simple-git-hooks: ^2.13.1
   prod:
     ress: ^5.0.2
