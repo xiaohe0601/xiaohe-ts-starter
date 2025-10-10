@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@10.18.2",
-  "description": "__description__",
   "scripts": {
     "prepare": "simple-git-hooks",
     "play": "nr -C playground dev",
