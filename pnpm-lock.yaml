@@ -16,6 +16,9 @@ catalogs:
       specifier: ^7.1.9
       version: 7.1.9
   cli:
+    '@antfu/ni':
+      specifier: ^26.1.0
+      version: 26.1.0
     bumpp:
       specifier: ^10.3.1
       version: 10.3.1
@@ -23,29 +26,14 @@ catalogs:
       specifier: ^0.6.1
       version: 0.6.1
   dev:
-    '@antfu/ni':
-      specifier: ^26.1.0
-      version: 26.1.0
-    '@antfu/utils':
-      specifier: ^9.3.0
-      version: 9.3.0
-    '@xiaohe01/tsconfig':
-      specifier: ^2.0.0
-      version: 2.0.0
-    typescript:
-      specifier: ~5.8.3
-      version: 5.8.3
-    vue-tsc:
-      specifier: ^3.1.1
-      version: 3.1.1
+    '@vue/runtime-core':
+      specifier: ^3.5.22
+      version: 3.5.22
   frontend:
     vue:
       specifier: ^3.5.22
       version: 3.5.22
   lint:
-    '@xiaohe01/eslint-config':
-      specifier: ^2.4.0
-      version: 2.4.0
     eslint:
       specifier: ^9.37.0
       version: 9.37.0
@@ -67,22 +55,40 @@ catalogs:
     vitest:
       specifier: ^3.2.4
       version: 3.2.4
+  tsc:
+    typescript:
+      specifier: ~5.8.3
+      version: 5.8.3
+    vue-tsc:
+      specifier: ^3.1.1
+      version: 3.1.1
+  utils:
+    '@antfu/utils':
+      specifier: ^9.3.0
+      version: 9.3.0
+  xiaohe:
+    '@xiaohe01/eslint-config':
+      specifier: ^2.4.0
+      version: 2.4.0
+    '@xiaohe01/tsconfig':
+      specifier: ^2.0.0
+      version: 2.0.0
 
 importers:
 
   .:
     devDependencies:
       '@antfu/ni':
-        specifier: catalog:dev
+        specifier: catalog:cli
         version: 26.1.0
       '@antfu/utils':
-        specifier: catalog:dev
+        specifier: catalog:utils
         version: 9.3.0
       '@xiaohe01/eslint-config':
-        specifier: catalog:lint
+        specifier: catalog:xiaohe
         version: 2.4.0(@vue/compiler-sfc@3.5.22)(eslint@9.37.0(jiti@2.6.1))(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(jiti@2.6.1)(tsx@4.20.6)(yaml@2.8.1))
       '@xiaohe01/tsconfig':
-        specifier: catalog:dev
+        specifier: catalog:xiaohe
         version: 2.0.0
       bumpp:
         specifier: catalog:cli
@@ -106,7 +112,7 @@ importers:
         specifier: catalog:build
         version: 0.15.6(typescript@5.8.3)(vue-tsc@3.1.1(typescript@5.8.3))
       typescript:
-        specifier: catalog:dev
+        specifier: catalog:tsc
         version: 5.8.3
       vite:
         specifier: catalog:build
@@ -129,11 +135,14 @@ importers:
       '@vitejs/plugin-vue':
         specifier: catalog:build
         version: 6.0.1(vite@7.1.9(jiti@2.6.1)(tsx@4.20.6)(yaml@2.8.1))(vue@3.5.22(typescript@5.8.3))
+      '@vue/runtime-core':
+        specifier: catalog:dev
+        version: 3.5.22
       vite:
         specifier: catalog:build
         version: 7.1.9(jiti@2.6.1)(tsx@4.20.6)(yaml@2.8.1)
       vue-tsc:
-        specifier: catalog:dev
+        specifier: catalog:tsc
         version: 3.1.1(typescript@5.8.3)
 
 packages:

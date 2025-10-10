@@ -9,18 +9,14 @@ catalogs:
     tsdown: ^0.15.6
     vite: ^7.1.9
   cli:
+    '@antfu/ni': ^26.1.0
     bumpp: ^10.3.1
     pncat: ^0.6.1
   dev:
-    '@antfu/ni': ^26.1.0
-    '@antfu/utils': ^9.3.0
-    '@xiaohe01/tsconfig': ^2.0.0
-    typescript: ~5.8.3
-    vue-tsc: ^3.1.1
+    '@vue/runtime-core': ^3.5.22
   frontend:
     vue: ^3.5.22
   lint:
-    '@xiaohe01/eslint-config': ^2.4.0
     eslint: ^9.37.0
     lint-staged: ^16.2.3
     simple-git-hooks: ^2.13.1
@@ -30,6 +26,14 @@ catalogs:
     esno: ^4.8.0
   test:
     vitest: ^3.2.4
+  tsc:
+    typescript: ~5.8.3
+    vue-tsc: ^3.1.1
+  utils:
+    '@antfu/utils': ^9.3.0
+  xiaohe:
+    '@xiaohe01/eslint-config': ^2.4.0
+    '@xiaohe01/tsconfig': ^2.0.0
 onlyBuiltDependencies:
   - esbuild
   - pncat
