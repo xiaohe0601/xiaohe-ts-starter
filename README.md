@@ -12,8 +12,6 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
-
 > [!NOTE]
 > Replace `package-placeholder`, `__description__` and `xiaohe0601` globally to use this template.
 
@@ -28,15 +26,15 @@ xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0
 
 MIT [LICENSE](./LICENSE)
 
-[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/package-placeholder?style=flat&colorA=080f12&colorB=1fa669&logo=GitHub
+[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/package-placeholder?style=flat&color=1fa669&labelColor=18181b&logo=github
 [github-stars-href]: https://github.com/xiaohe0601/package-placeholder
-[npm-version-src]: https://img.shields.io/npm/v/package-placeholder?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-src]: https://img.shields.io/npm/v/package-placeholder?style=flat&color=1fa669&labelColor=18181b&logo=npm
 [npm-version-href]: https://npmjs.com/package/package-placeholder
-[npm-downloads-src]: https://img.shields.io/npm/dm/package-placeholder?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-src]: https://img.shields.io/npm/dm/package-placeholder?style=flat&color=1fa669&labelColor=18181b
 [npm-downloads-href]: https://npmjs.com/package/package-placeholder
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/package-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/package-placeholder?style=flat&color=1fa669&labelColor=18181b&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=package-placeholder
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
+[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-1fa669?style=flat&labelColor=18181b
 [jsdocs-href]: https://www.jsdocs.io/package/package-placeholder
-[license-src]: https://img.shields.io/github/license/xiaohe0601/package-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-src]: https://img.shields.io/github/license/xiaohe0601/package-placeholder.svg?style=flat&color=1fa669&labelColor=18181b
 [license-href]: https://github.com/xiaohe0601/package-placeholder/blob/main/LICENSE
