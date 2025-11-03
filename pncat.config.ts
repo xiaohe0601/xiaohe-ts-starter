@@ -5,14 +5,14 @@ export default defineConfig({
     {
       name: "cli",
       match: [
-        /^@antfu\/ni$/
+        "@antfu/ni"
       ],
-      priority: 1
+      priority: 0
     },
     {
       name: "dev",
       match: [
-        /^@vue\/runtime-core$/
+        "@vue/runtime-core"
       ],
       priority: 0
     },
@@ -20,13 +20,6 @@ export default defineConfig({
       name: "docs",
       match: [
         /\bvitepress\b/
-      ],
-      priority: 0
-    },
-    {
-      name: "test",
-      match: [
-        /\bvitest\b/
       ],
       priority: 1
     },
