@@ -6,8 +6,8 @@ packages:
 catalogs:
   build:
     "@vitejs/plugin-vue": ^6.0.2
-    tsdown: ^0.16.5
-    vite: ^7.2.2
+    tsdown: ^0.16.6
+    vite: ^7.2.4
   cli:
     "@antfu/ni": ^27.0.1
     bumpp: ^10.3.1
@@ -24,7 +24,7 @@ catalogs:
   script:
     esno: ^4.8.0
   test:
-    vitest: ^4.0.10
+    vitest: ^4.0.12
   tsc:
     typescript: ~5.9.3
     vue-tsc: ^3.1.4
