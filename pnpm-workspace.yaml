@@ -24,10 +24,10 @@ catalogs:
   script:
     esno: ^4.8.0
   test:
-    vitest: ^4.0.12
+    vitest: ^4.0.13
   tsc:
     typescript: ~5.9.3
-    vue-tsc: ^3.1.4
+    vue-tsc: ^3.1.5
   types:
     "@types/node": ^22.19.1
   xiaohe:
@@ -35,5 +35,4 @@ catalogs:
     "@xiaohe01/tsconfig": ^3.0.0
 onlyBuiltDependencies:
   - esbuild
-  - pncat
   - simple-git-hooks
