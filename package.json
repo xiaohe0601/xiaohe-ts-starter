@@ -11,7 +11,7 @@
     "release": "bumpp -r",
     "lint": "eslint --cache",
     "lint:fix": "nr lint --fix",
-    "lint:type": "tsc --noEmit",
+    "lint:type": "tsc -b --noEmit",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage"
