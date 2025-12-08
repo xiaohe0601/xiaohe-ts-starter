@@ -3,7 +3,9 @@
     { "path": "./tsconfig.node.json" },
     { "path": "./tsconfig.test.json" },
     { "path": "./packages/core/tsconfig.lib.json" },
-    { "path": "./packages/core/tsconfig.node.json" }
+    { "path": "./packages/core/tsconfig.node.json" },
+    { "path": "./playground/tsconfig.app.json" },
+    { "path": "./playground/tsconfig.node.json" }
   ],
   "files": []
 }

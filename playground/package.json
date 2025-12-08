@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "lint:type": "vue-tsc -b --noEmit"
+    "preview": "vite preview"
   },
   "dependencies": {
     "ress": "catalog:frontend",
@@ -16,7 +15,6 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "catalog:build",
     "@vue/runtime-core": "catalog:dev",
-    "vite": "catalog:build",
-    "vue-tsc": "catalog:tsc"
+    "vite": "catalog:build"
   }
 }
