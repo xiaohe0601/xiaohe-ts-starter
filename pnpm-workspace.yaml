@@ -10,17 +10,17 @@ packages:
 catalogs:
   build:
     "@vitejs/plugin-vue": ^6.0.3
-    tsdown: ^0.17.4
-    vite: ^7.2.7
+    tsdown: ^0.18.3
+    vite: ^7.3.0
   cli:
     "@antfu/ni": ^28.0.0
     bumpp: ^10.3.2
     pncat: ^0.7.7
   dev:
-    "@vue/runtime-core": ^3.5.25
+    "@vue/runtime-core": ^3.5.26
   frontend:
     ress: ^5.0.2
-    vue: ^3.5.25
+    vue: ^3.5.26
   lint:
     eslint: ^9.39.2
     lint-staged: ^16.2.7
@@ -28,10 +28,10 @@ catalogs:
   script:
     esno: ^4.8.0
   test:
-    vitest: ^4.0.15
+    vitest: ^4.0.16
   tsc:
     typescript: ~5.9.3
-    vue-tsc: ^3.1.8
+    vue-tsc: ^3.2.1
   types:
     "@types/node": ^22.19.3
   xiaohe:
