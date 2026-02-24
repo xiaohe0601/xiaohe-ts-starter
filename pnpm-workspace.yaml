@@ -35,7 +35,7 @@ catalogs:
     "@types/node": ^22.19.11
   xiaohe:
     "@xiaohe01/catalog-rules": ^0.0.2
-    "@xiaohe01/eslint-config": ^5.2.1
+    "@xiaohe01/eslint-config": ^5.2.2
     "@xiaohe01/tsconfig": ^3.1.0
 
 onlyBuiltDependencies:

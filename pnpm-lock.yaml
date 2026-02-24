@@ -70,8 +70,8 @@ catalogs:
       specifier: ^0.0.2
       version: 0.0.2
     '@xiaohe01/eslint-config':
-      specifier: ^5.2.1
-      version: 5.2.1
+      specifier: ^5.2.2
+      version: 5.2.2
     '@xiaohe01/tsconfig':
       specifier: ^3.1.0
       version: 3.1.0
@@ -91,7 +91,7 @@ importers:
         version: 0.0.2(pncat@0.10.2)
       '@xiaohe01/eslint-config':
         specifier: catalog:xiaohe
-        version: 5.2.1(@vue/compiler-sfc@3.5.28)(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
+        version: 5.2.2(@vue/compiler-sfc@3.5.28)(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       '@xiaohe01/tsconfig':
         specifier: catalog:xiaohe
         version: 3.1.0
@@ -985,8 +985,8 @@ packages:
     peerDependencies:
       pncat: '*'
 
-  '@xiaohe01/eslint-config@5.2.1':
-    resolution: {integrity: sha512-VYamIDLCfLhv48CozaCy1b8Cv7rMCAdip2wIz+oJy+c4xRSWpb3erbbXLNXuG42BRovW03fa/PkQYzzpg1Vu3A==}
+  '@xiaohe01/eslint-config@5.2.2':
+    resolution: {integrity: sha512-KOk4D7GIkcLTtGx4sceK/OD2eFQ3Fkb5cGYXUusOmHK13YZKV7/WPxdrj9ZF65iZ8YGHnFRD9ALowglG9VdFWQ==}
     peerDependencies:
       eslint: '>=9.5.0'
 
@@ -3238,7 +3238,7 @@ snapshots:
     dependencies:
       pncat: 0.10.2
 
-  '@xiaohe01/eslint-config@5.2.1(@vue/compiler-sfc@3.5.28)(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))':
+  '@xiaohe01/eslint-config@5.2.2(@vue/compiler-sfc@3.5.28)(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))':
     dependencies:
       '@antfu/eslint-config': 7.4.3(@vue/compiler-sfc@3.5.28)(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       eslint: 9.39.3(jiti@2.6.1)
