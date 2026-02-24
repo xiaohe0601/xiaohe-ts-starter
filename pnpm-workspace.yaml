@@ -14,26 +14,27 @@ catalogs:
   cli:
     "@antfu/ni": ^28.2.0
     bumpp: ^10.4.1
-    pncat: ^0.9.1
-  dev:
-    "@vue/runtime-core": ^3.5.28
+    pncat: ^0.10.2
   frontend:
-    ress: ^5.0.2
+    "@vue/runtime-core": ^3.5.28
     vue: ^3.5.28
   lint:
-    eslint: ^9.39.2
+    eslint: ^9.39.3
     lint-staged: ^16.2.7
     simple-git-hooks: ^2.13.1
   script:
     esno: ^4.8.0
+  style:
+    ress: ^5.0.2
   test:
     vitest: ^4.0.18
   tsc:
     typescript: ~5.9.3
-    vue-tsc: ^3.2.4
+    vue-tsc: ^3.2.5
   types:
-    "@types/node": ^22.19.10
+    "@types/node": ^22.19.11
   xiaohe:
+    "@xiaohe01/catalog-rules": ^0.0.2
     "@xiaohe01/eslint-config": ^5.2.1
     "@xiaohe01/tsconfig": ^3.1.0
 

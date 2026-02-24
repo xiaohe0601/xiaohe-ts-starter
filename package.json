@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.29.2",
+  "packageManager": "pnpm@10.30.2",
   "scripts": {
     "prepare": "simple-git-hooks",
     "play": "nr -C playground dev",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@antfu/ni": "catalog:cli",
     "@types/node": "catalog:types",
+    "@xiaohe01/catalog-rules": "catalog:xiaohe",
     "@xiaohe01/eslint-config": "catalog:xiaohe",
     "@xiaohe01/tsconfig": "catalog:xiaohe",
     "bumpp": "catalog:cli",
