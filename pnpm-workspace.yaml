@@ -16,8 +16,8 @@ catalogs:
     bumpp: ^10.4.1
     pncat: ^0.10.2
   frontend:
-    "@vue/runtime-core": ^3.5.28
-    vue: ^3.5.28
+    "@vue/runtime-core": ^3.5.29
+    vue: ^3.5.29
   lint:
     eslint: ^9.39.3
     lint-staged: ^16.2.7
@@ -32,10 +32,10 @@ catalogs:
     typescript: ~5.9.3
     vue-tsc: ^3.2.5
   types:
-    "@types/node": ^22.19.11
+    "@types/node": ^22.19.12
   xiaohe:
-    "@xiaohe01/catalog-rules": ^0.0.2
-    "@xiaohe01/eslint-config": ^5.2.2
+    "@xiaohe01/catalog-rules": ^0.0.3
+    "@xiaohe01/eslint-config": ^5.3.0
     "@xiaohe01/tsconfig": ^3.1.0
 
 onlyBuiltDependencies:
