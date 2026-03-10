@@ -37,7 +37,7 @@ catalogs:
       specifier: ^9.39.4
       version: 9.39.4
     lint-staged:
-      specifier: ^16.3.2
+      specifier: ^16.3.3
       version: 16.3.3
     simple-git-hooks:
       specifier: ^2.13.1
@@ -70,8 +70,8 @@ catalogs:
       specifier: ^0.0.3
       version: 0.0.3
     '@xiaohe01/eslint-config':
-      specifier: ^5.5.0
-      version: 5.5.0
+      specifier: ^5.5.1
+      version: 5.5.1
     '@xiaohe01/tsconfig':
       specifier: ^3.1.0
       version: 3.1.0
@@ -91,7 +91,7 @@ importers:
         version: 0.0.3(pncat@0.10.4)
       '@xiaohe01/eslint-config':
         specifier: catalog:xiaohe
-        version: 5.5.0(@typescript-eslint/rule-tester@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.30)(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@24.12.0)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
+        version: 5.5.1(@typescript-eslint/rule-tester@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.30)(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@24.12.0)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       '@xiaohe01/tsconfig':
         specifier: catalog:xiaohe
         version: 3.1.0
@@ -1012,8 +1012,8 @@ packages:
     peerDependencies:
       pncat: '*'
 
-  '@xiaohe01/eslint-config@5.5.0':
-    resolution: {integrity: sha512-wyfc1vax+GUJTqBilzaj5vmfQYw0hEf7ELnkHJHyghwZPeVmn/1gz/bqDECwBcPfZudXAm7f+cghirUWZ7KPiw==}
+  '@xiaohe01/eslint-config@5.5.1':
+    resolution: {integrity: sha512-gR9FSvVLMRM8vtWtwvt+vz4IJq1E10ihNzxZCbR+mDHb6Cg/tmggJN2CTcshYRbWjlDsfUywfOlbD400WC9UpA==}
     peerDependencies:
       eslint: '>=9.5.0'
 
@@ -3273,7 +3273,7 @@ snapshots:
     dependencies:
       pncat: 0.10.4
 
-  '@xiaohe01/eslint-config@5.5.0(@typescript-eslint/rule-tester@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.30)(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@24.12.0)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))':
+  '@xiaohe01/eslint-config@5.5.1(@typescript-eslint/rule-tester@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.30)(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@24.12.0)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))':
     dependencies:
       '@antfu/eslint-config': 7.7.0(@typescript-eslint/rule-tester@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.30)(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@24.12.0)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       eslint: 9.39.4(jiti@2.6.1)
