@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "ress";
+import "ress/ress.css";
 
 const app = createApp(App);
 
